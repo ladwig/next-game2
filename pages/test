@@ -1,4 +1,6 @@
-for blocking the walls 
+for blocking the walls
 if(this.state.x + this.state.nx > this.canvas.width-32 || this.state.x + this.state.nx < 32) {
     this.state.nx = -this.state.nx;
 }
+
+  this.state.x < this.state.playerSize
